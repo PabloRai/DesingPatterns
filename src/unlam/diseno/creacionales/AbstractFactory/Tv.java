@@ -1,6 +1,6 @@
 package unlam.diseno.creacionales.AbstractFactory;
 
-public class Tv {
+public class Tv implements Cloneable{
     private String marca;
     private int pulgadas;
     private String descripcion;
@@ -45,5 +45,10 @@ public class Tv {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

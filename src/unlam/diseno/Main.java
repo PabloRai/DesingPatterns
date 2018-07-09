@@ -1,9 +1,7 @@
 package unlam.diseno;
 
-import unlam.diseno.creacionales.AbstractFactory.EnsamblajeTv;
-import unlam.diseno.creacionales.AbstractFactory.FactoryLcdRojo;
-import unlam.diseno.creacionales.AbstractFactory.FactoryPlasmaBlanco;
-import unlam.diseno.creacionales.AbstractFactory.TvAbstractFactory;
+import unlam.diseno.creacionales.AbstractFactory.*;
+import unlam.diseno.creacionales.Prototype.TvPrototype;
 import unlam.diseno.creacionales.builder.AutoDirector;
 import unlam.diseno.creacionales.builder.AutoProduct;
 import unlam.diseno.creacionales.builder.FiatBuilder;
@@ -12,7 +10,7 @@ import unlam.diseno.creacionales.singleton.Singleton;
 public class Main {
 
     public static void main(String[] args) {
-        testAbstractFactory();
+        testPrototype();
     }
 
 
@@ -45,5 +43,15 @@ public class Main {
         EnsamblajeTv ensamblajeTv = new EnsamblajeTv(lcdFactory);
         TvAbstractFactory plasmaFactory = new FactoryPlasmaBlanco();
         EnsamblajeTv ensamblajeTv1 = new EnsamblajeTv(plasmaFactory);
+    }
+
+    private static void testPrototype() {
+        TvPrototype tvPrototype = new TvPrototype();
+        try {
+            Tv plasma = (Plasma) tvPrototype.getPrototipo("Plasma");
+            System.out.println(plasma.getPrecio());
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
     }
 }

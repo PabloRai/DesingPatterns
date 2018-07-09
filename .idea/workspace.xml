@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c92f184-857b-4878-9926-0d229643876f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Blanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/EnsamblajeTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryLcdRojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaAmarillo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/LCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Plasma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Rojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/TvAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/Prototype/TvPrototype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unlam/diseno/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,22 +34,14 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="118">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
                 <element signature="method#testSingleton#0;class#Main#0" />
-                <element signature="e#1454#1455#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TvAbstractFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/TvAbstractFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -77,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactoryPlasmaAmarillo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaAmarillo.java">
+      <file leaf-file-name="FactoryPlasmaBlanco.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaBlanco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
@@ -97,21 +81,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Color.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -153,8 +122,8 @@
       <file leaf-file-name="Tv.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+            <state relative-caret-position="305">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
               <folding>
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
@@ -177,18 +146,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TvPrototype.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/Prototype/TvPrototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LCD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/LCD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#551#552#0" expanded="true" />
                 <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plasma.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Plasma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
+              <folding>
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,7 +226,6 @@
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/FordBuilder.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/AutoBuilder.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Color.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/LCD.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Plasma.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Rojo.java" />
@@ -232,9 +233,11 @@
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/TvAbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryLcdAzul.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaAmarillo.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/EsamblajeTv.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/EnsamblajeTv.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaAmarillo.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/Prototype/TvPrototype.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/Main.java" />
       </list>
     </option>
@@ -295,14 +298,6 @@
               <item name="diseno" type="462c0819:PsiDirectoryNode" />
               <item name="creacionales" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DisenoPatrones" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DisenoPatrones" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="diseno" type="462c0819:PsiDirectoryNode" />
-              <item name="creacionales" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,6 +305,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="lcd&#9;FILE&#9;file://C:/Users/Pablo/Desktop/DisenoPatrones/src/unlam/diseno/creacionales/AbstractFactory/LCD.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -370,12 +366,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531161074033</updated>
-      <workItem from="1531161076329" duration="5375000" />
+      <workItem from="1531161076329" duration="6667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5375000" />
+    <option name="totallyTimeSpent" value="6667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -553,65 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Plasma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/LCD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -621,36 +558,6 @@
             <element signature="e#151#152#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Blanco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Rojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="79" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="79" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,10 +582,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaAmarillo.java">
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/EnsamblajeTv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Rojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="79" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="79" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Blanco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaBlanco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#180#181#0" expanded="true" />
@@ -688,21 +632,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/EnsamblajeTv.java">
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Plasma.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/LCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/Prototype/TvPrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unlam/diseno/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="118">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
             <element signature="method#testSingleton#0;class#Main#0" />
-            <element signature="e#1454#1455#0" expanded="true" />
           </folding>
         </state>
       </provider>
