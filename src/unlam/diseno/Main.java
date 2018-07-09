@@ -1,5 +1,9 @@
 package unlam.diseno;
 
+import unlam.diseno.creacionales.AbstractFactory.EnsamblajeTv;
+import unlam.diseno.creacionales.AbstractFactory.FactoryLcdRojo;
+import unlam.diseno.creacionales.AbstractFactory.FactoryPlasmaBlanco;
+import unlam.diseno.creacionales.AbstractFactory.TvAbstractFactory;
 import unlam.diseno.creacionales.builder.AutoDirector;
 import unlam.diseno.creacionales.builder.AutoProduct;
 import unlam.diseno.creacionales.builder.FiatBuilder;
@@ -8,7 +12,7 @@ import unlam.diseno.creacionales.singleton.Singleton;
 public class Main {
 
     public static void main(String[] args) {
-        testBuilder();
+        testAbstractFactory();
     }
 
 
@@ -34,5 +38,12 @@ public class Main {
         auto = autoDirector.getAuto();
         System.out.println(auto.getMarca());
         System.out.println(auto.getModelo());
+    }
+
+    private static void testAbstractFactory() {
+        TvAbstractFactory lcdFactory = new FactoryLcdRojo();
+        EnsamblajeTv ensamblajeTv = new EnsamblajeTv(lcdFactory);
+        TvAbstractFactory plasmaFactory = new FactoryPlasmaBlanco();
+        EnsamblajeTv ensamblajeTv1 = new EnsamblajeTv(plasmaFactory);
     }
 }
