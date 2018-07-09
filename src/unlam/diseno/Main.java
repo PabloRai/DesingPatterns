@@ -1,6 +1,8 @@
 package unlam.diseno;
 
 import unlam.diseno.creacionales.AbstractFactory.*;
+import unlam.diseno.creacionales.FactoryMethod.Triangulo;
+import unlam.diseno.creacionales.FactoryMethod.TrianguloFactory;
 import unlam.diseno.creacionales.Prototype.TvPrototype;
 import unlam.diseno.creacionales.builder.AutoDirector;
 import unlam.diseno.creacionales.builder.AutoProduct;
@@ -10,7 +12,7 @@ import unlam.diseno.creacionales.singleton.Singleton;
 public class Main {
 
     public static void main(String[] args) {
-        testPrototype();
+        testFactoryMethod();
     }
 
 
@@ -53,5 +55,16 @@ public class Main {
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
+    }
+
+
+    private  static void testFactoryMethod() {
+        TrianguloFactory trianguloFactory = new TrianguloFactory();
+        Triangulo triangulo = trianguloFactory.crearTriangulo(10, 10, 10);
+        System.out.println(triangulo.getDescripcion());
+        triangulo = trianguloFactory.crearTriangulo(10, 10, 11);
+        System.out.println(triangulo.getDescripcion());
+        triangulo = trianguloFactory.crearTriangulo(10, 11, 12);
+        System.out.println(triangulo.getDescripcion());
     }
 }
