@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c92f184-857b-4878-9926-0d229643876f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Dibuja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/DibujaNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/DibujaPunteado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Forma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/ISueldo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Blanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/Blanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/EnsamblajeTv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/EnsamblajeTv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryLcdRojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/FactoryLcdRojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/FactoryPlasmaBlanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/FactoryPlasmaBlanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/LCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/LCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Plasma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/Plasma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Rojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/Rojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/Tv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/AbstractFactory/TvAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/TvAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Equilatero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Equilatero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Escaleno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Escaleno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Isoceles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Isoceles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/TrianguloFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/TrianguloFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/TrianguloFactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/TrianguloFactoryMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/creacionales/Prototype/TvPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/creacionales/prototype/TvPrototype.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,32 +72,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DibujaPunteado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/DibujaPunteado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Circulo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Circulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Rectangulo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Rectangulo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CdPlayer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CdPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/CdPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -144,29 +98,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DibujaNormal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/DibujaNormal.java">
+      <file leaf-file-name="ISueldo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/ISueldo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Composite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Composite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Forma.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Forma.java">
+      <file leaf-file-name="Empleado.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SectorCajas.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,10 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/Builder/Builder.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/Builder.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/singleton/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/AutoProduct.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/Motor.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/AutoDirector.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/FiatBuilder.java" />
@@ -239,6 +211,10 @@
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/DibujaPunteado.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Circulo.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Rectangulo.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/ISueldo.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Composite.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java" />
       </list>
     </option>
   </component>
@@ -257,7 +233,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="792" />
     <option name="width" value="1135" />
     <option name="height" value="1039" />
@@ -311,15 +287,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="diseno" type="462c0819:PsiDirectoryNode" />
               <item name="estructurales" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DisenoPatrones" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DisenoPatrones" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="diseno" type="462c0819:PsiDirectoryNode" />
-              <item name="estructurales" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,12 +359,12 @@
       <updated>1531161074033</updated>
       <workItem from="1531161076329" duration="8125000" />
       <workItem from="1531183761931" duration="3688000" />
-      <workItem from="1531271326444" duration="1148000" />
+      <workItem from="1531271326444" duration="1899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12961000" />
+    <option name="totallyTimeSpent" value="13712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -448,38 +416,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/TrianguloFactoryMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/FactoryPlasmaBlanco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/EnsamblajeTv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/Rojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="79" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="79" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/unlam.diseno.creacionales.singleton">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -720,6 +656,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,7 +725,7 @@
             <Category>Constructors</Category>
             <Category>Methods</Category>
             <Category>Properties</Category>
-            <Category />
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -903,6 +846,48 @@
           <folding>
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/ISueldo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
