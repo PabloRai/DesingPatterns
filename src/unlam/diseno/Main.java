@@ -1,9 +1,9 @@
 package unlam.diseno;
 
-import unlam.diseno.creacionales.AbstractFactory.*;
-import unlam.diseno.creacionales.FactoryMethod.Triangulo;
-import unlam.diseno.creacionales.FactoryMethod.TrianguloFactory;
-import unlam.diseno.creacionales.Prototype.TvPrototype;
+import unlam.diseno.creacionales.abstractFactory.*;
+import unlam.diseno.creacionales.factoryMethod.Triangulo;
+import unlam.diseno.creacionales.factoryMethod.TrianguloFactory;
+import unlam.diseno.creacionales.prototype.TvPrototype;
 import unlam.diseno.creacionales.builder.AutoDirector;
 import unlam.diseno.creacionales.builder.AutoProduct;
 import unlam.diseno.creacionales.builder.FiatBuilder;

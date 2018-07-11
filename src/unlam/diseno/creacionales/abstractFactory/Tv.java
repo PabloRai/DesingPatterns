@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.AbstractFactory;
+package unlam.diseno.creacionales.abstractFactory;
 
 public class Tv implements Cloneable{
     private String marca;

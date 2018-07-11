@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.AbstractFactory;
+package unlam.diseno.creacionales.abstractFactory;
 
 public class Blanco extends Color{
     private boolean isPrimario;

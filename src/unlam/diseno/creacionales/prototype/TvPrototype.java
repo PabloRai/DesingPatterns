@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.Prototype;
+package unlam.diseno.creacionales.prototype;
 
 /*
 El patrón prototype tiene un objetivo muy sencillo: crear a partir de un modelo.
@@ -7,9 +7,9 @@ Esto lo logra especificando los prototipos de objetos a crear. Los nuevos objeto
 Vale decir, tiene como finalidad crear nuevos objetos duplicándolos, clonando una instancia creada previamente.
  */
 
-import unlam.diseno.creacionales.AbstractFactory.LCD;
-import unlam.diseno.creacionales.AbstractFactory.Plasma;
-import unlam.diseno.creacionales.AbstractFactory.Tv;
+import unlam.diseno.creacionales.abstractFactory.LCD;
+import unlam.diseno.creacionales.abstractFactory.Plasma;
+import unlam.diseno.creacionales.abstractFactory.Tv;
 
 import java.util.HashMap;
 

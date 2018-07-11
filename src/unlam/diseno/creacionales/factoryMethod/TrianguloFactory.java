@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.FactoryMethod;
+package unlam.diseno.creacionales.factoryMethod;
 
 public class TrianguloFactory implements  TrianguloFactoryMethod{
     @Override

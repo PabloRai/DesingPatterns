@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.AbstractFactory;
+package unlam.diseno.creacionales.abstractFactory;
 
 public class Plasma extends Tv {
     private double angulo;

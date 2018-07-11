@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.AbstractFactory;
+package unlam.diseno.creacionales.abstractFactory;
 
 public class LCD extends Tv {
     private double costoDeFabricacion;

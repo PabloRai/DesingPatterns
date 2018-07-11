@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.AbstractFactory;
+package unlam.diseno.creacionales.abstractFactory;
 
 public class FactoryPlasmaBlanco extends TvAbstractFactory {
     @Override

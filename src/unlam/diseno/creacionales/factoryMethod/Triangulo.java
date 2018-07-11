@@ -1,4 +1,4 @@
-package unlam.diseno.creacionales.FactoryMethod;
+package unlam.diseno.creacionales.factoryMethod;
 
 public abstract class Triangulo {
     private int ladoA;
