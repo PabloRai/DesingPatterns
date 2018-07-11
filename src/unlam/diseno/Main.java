@@ -8,11 +8,12 @@ import unlam.diseno.creacionales.builder.AutoDirector;
 import unlam.diseno.creacionales.builder.AutoProduct;
 import unlam.diseno.creacionales.builder.FiatBuilder;
 import unlam.diseno.creacionales.singleton.Singleton;
+import unlam.diseno.estructurales.flyweight.Alumno;
 
 public class Main {
 
     public static void main(String[] args) {
-        testFactoryMethod();
+        testFlyweight();
     }
 
 
@@ -66,5 +67,19 @@ public class Main {
         System.out.println(triangulo.getDescripcion());
         triangulo = trianguloFactory.crearTriangulo(10, 11, 12);
         System.out.println(triangulo.getDescripcion());
+    }
+
+    private static void testFlyweight() {
+        double promedioGeneral = 6;
+        String[] nombreAlumnos = {"Roberto", "Carlos", "Bolanios"};
+        String[] apellidoAlumnos = {"A", "B", "C"};
+        double[] promedioAlumnos = {6, 7, 9};
+        Alumno alumno = new Alumno(promedioGeneral);
+        for (int i = 0; i < 3; i++) {
+            alumno.setNombre(nombreAlumnos[i]);
+            alumno.setApellido(apellidoAlumnos[i]);
+            alumno.setPromedioAlumno(promedioAlumnos[i]);
+            System.out.println(nombreAlumnos[i] + " " + alumno.compara());
+        }
     }
 }

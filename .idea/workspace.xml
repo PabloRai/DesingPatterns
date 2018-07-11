@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c92f184-857b-4878-9926-0d229643876f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/estructurales/flyweight/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unlam/diseno/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unlam/diseno/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testSingleton#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Vendible.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/Vendible.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,33 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/Auto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AutoDecorator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/AutoDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rectangulo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Rectangulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Empleado.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Empleado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -127,6 +119,27 @@
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alumno.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/flyweight/Alumno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/Motor.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/AutoDirector.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/FiatBuilder.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/builder/FordBuilder.java" />
@@ -203,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/AireAcondicionado.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/Gasoil.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/decorator/CdPlayer.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/Main.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Forma.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Dibuja.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/DibujaNormal.java" />
@@ -214,6 +225,8 @@
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Composite.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/SectorCajas.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/composite/Empleado.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/flyweight/Alumno.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/Main.java" />
       </list>
     </option>
   </component>
@@ -271,7 +284,7 @@
               <item name="DisenoPatrones" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="diseno" type="462c0819:PsiDirectoryNode" />
-              <item name="creacionales" type="462c0819:PsiDirectoryNode" />
+              <item name="estructurales" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,12 +356,12 @@
       <updated>1531161074033</updated>
       <workItem from="1531161076329" duration="8125000" />
       <workItem from="1531183761931" duration="3688000" />
-      <workItem from="1531271326444" duration="2058000" />
+      <workItem from="1531271326444" duration="2724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13871000" />
+    <option name="totallyTimeSpent" value="14537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -400,28 +413,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/unlam.diseno.creacionales.singleton">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>unlam.diseno.creacionales.singleton</OriginalElement>
-          <nodes>
-            <node x="" y="">unlam.diseno.creacionales.singleton.Singleton</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="49.0" y="15.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -716,17 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testSingleton#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/bridge/Dibuja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -874,6 +854,36 @@
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/flyweight/Alumno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testSingleton#0;class#Main#0" />
           </folding>
         </state>
       </provider>
