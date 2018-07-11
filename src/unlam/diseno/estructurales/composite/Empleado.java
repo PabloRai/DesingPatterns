@@ -1,5 +1,6 @@
 package unlam.diseno.estructurales.composite;
 
+// Hijo Hoja
 public class Empleado implements ISueldo {
     private double sueldo;
 

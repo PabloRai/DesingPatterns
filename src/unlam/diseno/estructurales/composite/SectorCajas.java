@@ -1,5 +1,7 @@
 package unlam.diseno.estructurales.composite;
 
+// Hijo composite
+
 public class SectorCajas extends Composite {
     private int cantidadCajeros;
 
