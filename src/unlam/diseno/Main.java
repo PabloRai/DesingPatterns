@@ -70,6 +70,7 @@ public class Main {
     }
 
     private static void testFlyweight() {
+        // El cliente (el main) no debería instanciar directamente a la clase concreta alumno, debería de existir una AlumnoFactory
         double promedioGeneral = 6;
         String[] nombreAlumnos = {"Roberto", "Carlos", "Bolanios"};
         String[] apellidoAlumnos = {"A", "B", "C"};
