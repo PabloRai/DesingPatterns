@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c92f184-857b-4878-9926-0d229643876f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/chainOfResponsability/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/chainOfResponsability/Ejecutivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/chainOfResponsability/IAprobador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/chainOfResponsability/Lider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Administracion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/AlarmaLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/ILibroEstadoMalo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Abierta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Cerrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/IEstadoVentanilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Ventanilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoBuenoStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoRegularStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Profesor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,86 +36,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IEstadoVentanilla.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/IEstadoVentanilla.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ventanilla.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Ventanilla.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Libro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Libro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ILibroEstadoMalo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/ILibroEstadoMalo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Administracion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Administracion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Biblioteca.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Biblioteca.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlarmaLibro.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlarmaLibro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/AlarmaLibro.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -137,6 +51,114 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Persona.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Persona.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alumno.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Alumno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profesor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Profesor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Libro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Libro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LibroStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstadoRegularStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoRegularStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstadoBuenoStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoBuenoStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LibroFinder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,39 +168,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Abierta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Abierta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cerrada.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/state/Cerrada.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -188,14 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/Prototype/TvPrototype.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Triangulo.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Isoceles.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Escaleno.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/Equilatero.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/TrianguloFactoryMethod.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/creacionales/FactoryMethod/TrianguloFactory.java" />
-        <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/adapter/Adaptee.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/adapter/adapter/Adaptee.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/Adaptee.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/IPersonaVieja.java" />
@@ -239,6 +227,14 @@
         <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Administracion.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/Subject.java" />
         <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/observer/AlarmaLibro.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Persona.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Alumno.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Profesor.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroStrategy.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Libro.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoRegularStrategy.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoBuenoStrategy.java" />
+        <option value="$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroFinder.java" />
       </list>
     </option>
   </component>
@@ -303,7 +299,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="diseno" type="462c0819:PsiDirectoryNode" />
               <item name="comportamiento" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,16 +373,15 @@
       <workItem from="1531161076329" duration="8125000" />
       <workItem from="1531183761931" duration="3688000" />
       <workItem from="1531271326444" duration="4289000" />
-      <workItem from="1531354643531" duration="5574000" />
+      <workItem from="1531354643531" duration="7708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21676000" />
+    <option name="totallyTimeSpent" value="23810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -398,10 +393,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4986577" visible="true" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4986577" visible="true" weight="0.32909605" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
@@ -434,56 +429,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/abstractFactory/FactoryPlasmaBlanco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Isoceles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Escaleno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Triangulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/Equilatero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/creacionales/factoryMethod/TrianguloFactoryMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/Adaptee.java" />
-    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/IPersonaVieja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unlam/diseno/estructurales/adapter/IPersonaNueva.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -937,6 +882,98 @@
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Alumno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Profesor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/Libro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoRegularStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/EstadoBuenoStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unlam/diseno/comportamiento/strategy/LibroFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
